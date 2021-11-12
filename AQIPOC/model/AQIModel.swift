@@ -68,7 +68,7 @@ class AQIHistoryCollector {
         
         //Do not keep storing unecessary data into array
         if aqiList.count > totalCount {
-            aqiList.dropFirst(list.count)
+            _ = aqiList.dropFirst(list.count)
         }
     }
     

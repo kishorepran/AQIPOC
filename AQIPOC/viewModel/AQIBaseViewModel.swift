@@ -101,7 +101,7 @@ extension AQBaseViewModel: WebSocketDelegate {
             handle(data: data)
             print("Received text: \(string)")
         case .error(let error):
-            print(error)
+            print(error as Any)
             break
         default:
             break

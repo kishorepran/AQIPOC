@@ -1,5 +1,6 @@
 # Air Quality Monitoring Application
-### Swift project with JSON parsing using codable
+### Swift project using Star Scream as web socket handling framework
+github link: https://github.com/daltoniam/Starscream
 
 
 ## About the application
@@ -14,10 +15,10 @@ Architecture: MVVM
 
 ## Feature done
 2. Splash screen with label
-3. Table view with data comign in live.
-1. Application is connected to web sockets and the ui is updating every 30 sec.
-4. If a user selects a city then he can see the live data on a graph.
-5. Simply run the xcode project no special instructions, sending the agent
+3. Table view with data coming in live.
+1. Application is connected to web sockets and ui is updating every 30 sec.
+4. If a user selects a city then he can see live data on a graph.
+5. Simply run the xcode project no special instructions. Pods are a part of the project. No need to do pod install.
 
 
 
