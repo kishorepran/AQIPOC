@@ -1,0 +1,6 @@
+framework module Pods_AQIPOC_AQIPOCUITests {
+  umbrella header "Pods-AQIPOC-AQIPOCUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}

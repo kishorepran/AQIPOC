@@ -1,0 +1,24 @@
+PODS:
+  - CorePlot (2.3)
+  - Starscream (4.0.4)
+  - SwiftLint (0.45.0)
+
+DEPENDENCIES:
+  - CorePlot (~> 2.3)
+  - Starscream (~> 4.0.0)
+  - SwiftLint
+
+SPEC REPOS:
+  trunk:
+    - CorePlot
+    - Starscream
+    - SwiftLint
+
+SPEC CHECKSUMS:
+  CorePlot: 6bfe6d30d215beec3cfd18ee43e434620119bc1e
+  Starscream: 5178aed56b316f13fa3bc55694e583d35dd414d9
+  SwiftLint: e5c7f1fba68eccfc51509d5b2ce1699f5502e0c7
+
+PODFILE CHECKSUM: cbfe2f1aa5a7e2b0a87012d115ff0920d8e54e4d
+
+COCOAPODS: 1.11.2
