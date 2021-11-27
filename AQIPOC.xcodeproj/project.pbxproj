@@ -236,6 +236,7 @@
 				CE7F57052724880A00BE872D /* Frameworks */,
 				CE7F57062724880A00BE872D /* Resources */,
 				1D31015F8CCC904CB42F4935 /* [CP] Embed Pods Frameworks */,
+				9B75BE50274107E20053A976 /* Swift Lint */,
 			);
 			buildRules = (
 			);
@@ -454,6 +455,24 @@
 			shellPath = /bin/sh;
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-AQIPOC-AQIPOCUITests/Pods-AQIPOC-AQIPOCUITests-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
+		};
+		9B75BE50274107E20053A976 /* Swift Lint */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = "Swift Lint";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Type a script or drag a script file from your workspace to insert its path.\nif [ \"${CONFIGURATION}\" = \"Debug\" ]; then\n${PODS_ROOT}/SwiftLint/swiftlint\nelse \necho \"warning: SwiftLint not installed, download from https://github.com/realm/SwiftLint\"\nfi\n\n";
 		};
 /* End PBXShellScriptBuildPhase section */
 
